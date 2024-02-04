@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
     </table>
     <form action="/updateData" method="post">
-        <input id="PrName" type="text" required name="name" placeholder="Name" value = "<%= obj.name %>"><br><br>
-        <input id="PrPrice" type="number" name="price" placeholder="Price" value = "<%= obj.price %>"><br><br>
-        <input id="PrImage" type="text" name="image" placeholder="Image"  value = "<%= obj.image %>"><br><br>
-        <input id="PrUUID" type="number" name="uuid" placeholder="UUID"  value = "<%= obj.uuid %>"><br><br>
-        <input id="PrType" type="text" name="type" placeholder="Type"  value = "<%= obj.type %>"><br><br>
-        <input id="PrLocation" type="text" name="location" placeholder="Location"  value = "<%= obj.location %>"><br><br>
-        <input  type="hidden" name="id"   value = "<%= obj._id %>"><br><br>
-        <input type="submit">
+        <input class="input1" id="PrName" type="text" required name="name" placeholder="Name" value = "<%= obj.name %>"><br><br>
+        <input class="input1"id="PrPrice" type="number" name="price" placeholder="Price" value = "<%= obj.price %>"><br><br>
+        <input class="input1"id="PrImage" type="text" name="image" placeholder="Image"  value = "<%= obj.image %>"><br><br>
+        <input class="input1"id="PrUUID" type="number" name="uuid" placeholder="UUID"  value = "<%= obj.uuid %>"><br><br>
+        <input class="input1"id="PrType" type="text" name="type" placeholder="Type"  value = "<%= obj.type %>"><br><br>
+        <input class="input1"id="PrLocation" type="text" name="location" placeholder="Location"  value = "<%= obj.location %>"><br><br>
+        <input  class="input1"type="hidden" name="id"   value = "<%= obj._id %>"><br><br>
+        <input class="input2"type="submit">
     </form>
 </body>
 </html>

@@ -1,31 +1,33 @@
-body{
-    background-image : url("img/0_I-sI3u34g0ydRqyA");
-    background-size : cover;
-}
-table tr td{
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
+body {
+  background-image: url("img/0_I-sI3u34g0ydRqyA");
+  background-size: cover;
 }
 
-.update{
-    background-color: rgb(103, 126, 218);
-    margin: 10px;
-    padding: 5px;
-    width: 100px;
-    color: black;
-}
-.delete{
-    background-color: rgba(183, 188, 82, 0.52);
-    margin: 10px;
-    width: 100px;
-    padding: 5px;
-    color:black;
+table tr td {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
 
+.update {
+
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
+  color: black;
+}
+
+.delete {
+ 
+  margin: 10px;
+  width: 100px;
+  padding: 5px;
+  color: black;
+}
 
 
-.button-19 {
+
+.input2 {
   appearance: button;
   background-color: #1899D6;
   border: solid transparent;
@@ -35,7 +37,7 @@ table tr td{
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: din-round,sans-serif;
+  font-family: din-round, sans-serif;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: .8px;
@@ -54,9 +56,11 @@ table tr td{
   vertical-align: middle;
   white-space: nowrap;
   width: 32%;
+  margin-left: 35%;
+  margin-bottom: 30px;
 }
 
-.button-19:after {
+.input2:after {
   background-clip: padding-box;
   background-color: #1CB0F6;
   border: solid transparent;
@@ -71,67 +75,68 @@ table tr td{
   z-index: -1;
 }
 
-.button-19:main,
-.button-19:focus {
+.input2:main,
+.input2:focus {
   user-select: auto;
 }
 
-.button-19:hover:not(:disabled) {
+.input2:hover:not(:disabled) {
   filter: brightness(1.1);
   -webkit-filter: brightness(1.1);
 }
 
-.button-19:disabled {
+.input2:disabled {
   cursor: auto;
 }
 
-.button-19:active {
+.input2:active {
   border-width: 4px 0 0;
   background: none;
 }
 
-#PrName{
-    width : 90%;
-    padding: 10px;
+.input1 {
+  width: 30%;
+  padding: 15px;
+  padding-left: 45px;
+  padding-right: 30px;
+  margin-left: 28%;
+  margin-top: 17px;
+  font-family: din-round, sans-serif;
+  border-radius: 8px;
 }
 
 
-#PrPrice{
-    width : 29%;
-    padding: 10px;
+
+.container {
+  background-color: white;
+  width: 21%;
+  margin: 0 auto;
+  padding: 40 px;
+  border: 1 px solid black;
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 500px;
 }
 
-#PrImage{
-    width : 29%;
-    padding: 10px;
+.div2{
+  width: 30%;
+  font-family: din-round, sans-serif;
 }
 
-#PrDes{
-    width : 29%;
-    padding: 10px;
+
+.div1{
+  margin-left: 250px;
+  font-family: din-round, sans-serif;
 }
 
-#PrUUID{
-    width : 29%;
-    padding: 10px;
+.div3{
+  width: 20%;
+  margin-right: 40%;
+  margin-left: 42.5%;
+  margin-top: 20%;
+  font-family: din-round, sans-serif;
 }
 
-#PrType{
-    width : 29%;
-    padding: 10px;
-}
-
-#PrLocation{
-    width : 29%;
-    padding: 10px;
-}
-
-.container{
-    background-color:black;
-    width : 21%;
-    margin : 0 auto;
-    padding : 40 px;
-    border : 1 px solid black;
-    border-radius: 20px;
-
+a{
+  text-decoration: none;
 }

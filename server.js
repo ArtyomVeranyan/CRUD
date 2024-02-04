@@ -11,6 +11,7 @@ const mongoose = require("mongoose");
 
 const connectionString ="mongodb+srv://artyomveranyan:Tyom2010@artyomveranyan.onzl8fg.mongodb.net/Tumo_product";
 
+app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static("public"));
 
 app.get("/", function (req, res) {
